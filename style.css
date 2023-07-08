@@ -1,0 +1,366 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&amp;display=swap');
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    background-color: #ffffff;
+    color: aliceblue;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .5rem;
+}
+ 
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+ 
+html::-webkit-scrollbar-thumb{
+    background: #FFC4C4;
+}
+
+.description {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.description h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 90px;
+}
+
+.image {
+    text-align: right;
+}
+
+.container {
+    color: #183B56;
+}
+
+form .btn {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* story */
+.story-container{
+    color: #183B56;
+    width:300px;
+    height: 450px;
+    margin-left: 90px;
+    display: wrap;
+    flex-wrap: wrap;
+}
+.facts-text h1{
+   line-height: 40px;
+}
+.story-card .story-img{
+    list-style: none;
+}
+.story-card .story-img a{
+    text-decoration: none;
+    color: #183B56;
+}
+.story-card .story-img i{
+    color: rgb(33, 165, 33);
+}
+/* end of story */
+
+/* body container */
+.container{
+    display:column;
+}
+.body-row .h-name {
+    padding: 15px 0;
+    font: 50px;
+}
+.body-row .body-img1 {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* end of body container */
+
+/* body content */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;   
+}
+
+.col {
+    width: 20rem;
+    max-height: fit-content;
+    color: black;
+}
+.card {
+    height: 30rem;
+    border-radius: 20px;
+    line-height: 20px;
+}
+    .container .body-img1 {
+        margin-right: 20px;
+    }
+
+/* end of body content */
+
+/* inside content */
+.inside-row {
+    display: flex;
+    padding-top: 40px;
+    width: 50%;
+    height: 50%;
+}
+.insider {
+    justify-content: center;
+}
+.card-body .card1{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+}
+.card-inline{
+    border-radius: 20px;
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #AC2020;
+    box-shadow: 2px 3px 5px #888888;
+ 
+}
+.card-body {
+    justify-content: center;
+    display: inline-block;
+}
+/* end of inside content */
+
+/* facts */
+.facts-title{
+    text-align: center;
+    justify-content: center;
+    color:#183B56;
+    padding: 50px;
+}
+.facts-title h1{
+    font-weight: 600;
+}
+.facts-title p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.facts-container{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   justify-content: center;
+
+}
+.facts-card{
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+.facts-card .facts-text {
+    color:#183B56;
+    margin-bottom: 50px;
+}
+/* end of facts */
+
+
+/* recommendation */
+.recom-container {
+    background-color: aqua;
+    justify-content: center;
+}
+
+.recom{
+    justify-content: center;
+    text-align: center;
+}
+
+.ca-recom img {
+    width: 250px;
+    height: 250px;
+}
+.recom .btn {
+    width:100px ;
+    height:40px;
+    background-color: #183B56;
+    text-align: center;
+    border-radius: 20px;
+}
+.ca-recom h2 {
+    color: #183B56;
+}
+.ca-recom h5{
+    color: green;
+}
+.facts-title .btn {
+    width:100px ;
+    height:40px;
+    background-color: #183B56;
+    text-align: center;
+    border-radius: 20px;
+}
+/* end of recommendation */
+
+/* footer */
+.footer{
+    width: 100%;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-color:  #FFC4C4;
+}
+
+.row {
+    padding-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 15px 0;
+}
+.footer-col h4{
+    font-size: 18px;
+    color:#183B56;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+}
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:   #4ed588;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #183B56;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(104, 232, 13, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000000;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #3d60e0;
+}
+/* end of footer */
+
+
+
+/* new css */
+.body-row {
+    display: grid;
+    gap: 20px;
+    padding: 50px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.description h1 {
+    line-height: 100%;
+}
+
+.body-row .body-img1 {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+
+@media (max-width:768px){
+    .story-container{
+        margin: 0 auto;
+    }
+
+    .social-links {
+        margin: 0 auto;
+    }
+
+   .facts-card .facts-text{
+    padding-bottom: 10px;
+    }
+
+    .body-row .h-name {
+        padding: 20px 0;
+        font: 50px;
+    }
+    .body-row{
+        grid-template-columns: 1fr;
+    }
+    .row .h11{
+        font-size: 3rem;
+        margin-left: 10px;
+    }
+
+    .row .p11{
+        font-size: 2rem;      
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .footer-col{
+        width: 100%;
+    }
+}   
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #ffffff;
+    }
+  }
+@media (max-width:320px){
+    .body-row {
+
+    }
+}
